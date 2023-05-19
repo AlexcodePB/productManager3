@@ -1,0 +1,12 @@
+{
+  "name": "Tienda-Virtual-Inelar",
+  "version": "1.0.0",
+  "description": "Product manager, de una tienda online",
+  "main": "index.js",
+  "scripts": {
+    "start": "node /Users/alex/Desktop/coding/back-end/dasafiosEntregables/tercerDesafio/src/app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
