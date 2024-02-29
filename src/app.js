@@ -4,6 +4,8 @@ const ProductManager = require("./productManager");
 const app = express();
 const productManager = new ProductManager();
 
+
+
 app.get("/products", async (req, res) => {
   const { limit } = req.query;
   const products = await productManager.getProducts();
